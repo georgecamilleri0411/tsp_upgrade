@@ -6,6 +6,7 @@ public class Population {
 		journeys = new Journey[_populationSize];
 
 		if (createNew) {
+			// Generate BeFS journeys here
 			for (int p = 0; p < _populationSize; p++) {
 				Journey newJourney = new Journey();
 				newJourney.generateJourney(true);
